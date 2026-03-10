@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Para o Amor da Minha Vida</title>
+
+<style>
+
+body{
+margin:0;
+padding:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+font-family: Arial, sans-serif;
+text-align:center;
+color:white;
+background: radial-gradient(circle at bottom, #0b0c2a, #000000);
+overflow:hidden;
+}
+
+/* estrelas */
+.stars{
+position:absolute;
+width:100%;
+height:100%;
+background: transparent url("https://www.transparenttextures.com/patterns/stardust.png") repeat;
+animation: moveStars 60s linear infinite;
+}
+
+@keyframes moveStars{
+from{background-position:0 0;}
+to{background-position:10000px 5000px;}
+}
+
+/* caixa da mensagem */
+.card{
+position:relative;
+background: rgba(255,255,255,0.1);
+padding:30px;
+border-radius:20px;
+backdrop-filter: blur(10px);
+max-width:600px;
+box-shadow:0 0 20px rgba(255,255,255,0.2);
+}
+
+h1{
+color:#ff4d88;
+font-size:40px;
+margin-bottom:20px;
+}
+
+p{
+font-size:20px;
+line-height:1.6;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<div class="card">
+<h1>Para a gambazinho da Minha Vida ❤️</h1>
+
+<p>
+Desde que você entrou na minha vida, tudo ficou mais bonito.
+Seu sorriso ilumina meus dias e seu abraço é o lugar onde eu encontro paz.
+
+Você é a melhor coisa que me aconteceu e a pessoa que faz meu coração
+bater mais forte todos os dias.
+
+Quero viver muitos momentos ao seu lado,
+olhando as estrelas e lembrando que a maior sorte que eu tive
+foi encontrar você.
+
+princesa,eu te amo hoje, amanhã e sempre. 💖
+</p>
+
+</div>
+
+</body>
+</html>
